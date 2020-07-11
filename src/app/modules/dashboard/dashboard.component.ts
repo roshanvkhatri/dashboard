@@ -29,7 +29,7 @@ export class DashboardComponent implements OnInit {
           fill: true,
           backgroundColor: '#E7EFFB',
           borderColor: '#1664D7',
-          data: [80,65],
+          data: [65, 80],
         }]
 
       },
