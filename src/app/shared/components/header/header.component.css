@@ -1,0 +1,23 @@
+h4{
+    padding-left: 20px;
+}
+ul li{
+    list-style: none;
+}
+.mat-toolbar-row{
+    padding: 0;
+}
+.home-button{   
+    border-width: 0 0.9px 0 0 ;
+    border-color: rgba(0,0,0,.12);
+    height: 64px;
+    background-color: transparent;
+    padding: 0;
+    width: 250px;
+}
+.mat-form-field{
+    padding-right: 20px;
+    font-size: 0.75rem;
+    width: 100px;
+}
+

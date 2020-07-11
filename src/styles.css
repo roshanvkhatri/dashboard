@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+/* html,
+body {
+  height: 100%;
+  background-image: linear-gradient(#9EAED5, #F1DED3);
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+body {
+  margin: 50px 20% 0 20%;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+} */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
