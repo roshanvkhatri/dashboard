@@ -24,13 +24,12 @@ export class DashboardComponent implements OnInit {
       data: {
         datasets: [{
           pointRadius: 0,
-
           borderWidth: 2,
           pointStyle: 'line',
           fill: true,
-          backgroundColor: '#F0EEFE',
-          borderColor: '#6758F3',
-          data: [65, 40, 80, 90],
+          backgroundColor: '#E7EFFB',
+          borderColor: '#1664D7',
+          data: [80,65],
         }]
 
       },
@@ -56,12 +55,13 @@ export class DashboardComponent implements OnInit {
       type: 'line',
       data: {
         datasets: [{
+          pointRadius: 0,
           fill: true,
           pointStyle: 'line',
           lineTension: 0.1,
-          backgroundColor: '#F0EEFE',
-          borderColor: '#6758F3',
-          data: [65, 80, 60, 40],
+          backgroundColor: '#EAF6EC',
+          borderColor: '#68C476',
+          data: [90, 30],
         }]
       },
       options: {
@@ -85,6 +85,7 @@ export class DashboardComponent implements OnInit {
       type: 'line',
       data: {
         datasets: [{
+          pointRadius: 0,
           fill: true,
           pointStyle: 'line',
           lineTension: 0.1,
@@ -115,11 +116,12 @@ export class DashboardComponent implements OnInit {
       type: 'line',
       data: {
         datasets: [{
+          pointRadius: 0,
           fill: true,
           pointStyle: 'line',
           lineTension: 0.1,
-          backgroundColor: '#F0EEFE',
-          borderColor: '#6758F3',
+          backgroundColor: '#FEFAEE',
+          borderColor: '#FACF55',
           data: [65, 80, 60, 40],
         }]
       },
