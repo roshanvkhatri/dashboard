@@ -29,23 +29,48 @@ export class DashboardComponent implements OnInit {
           fill: true,
           backgroundColor: '#E7EFFB',
           borderColor: '#1664D7',
-          data: [65, 80],
+          data: [45, 60, 80],
         }]
 
       },
       options: {
         legend: {
+          layout: {
+            padding: {
+              left: 0,
+              right: 0,
+              top: 0,
+              bottom: -20
+            }
+          },
           display: false,
         },
         scales: {
-          yAxes: [{
-            display: false,
-            ticks: {
-              max: 100,
-              min: 0,
-              stepSize: 50
-            }
-          }]
+          xAxes: [
+            {
+              ticks: {
+                display: false,
+              },
+              gridLines: {
+                display: false,
+                tickMarkLength: 0,
+              },
+            },
+          ],
+          yAxes: [
+            {
+              ticks: {
+                display: false,
+                max: 100,
+                min: 0,
+                stepSize: 50
+              },
+              gridLines: {
+                display: false,
+                tickMarkLength: 0,
+              },
+            },
+          ],
         }
       }
 
@@ -66,17 +91,42 @@ export class DashboardComponent implements OnInit {
       },
       options: {
         legend: {
+          layout: {
+            padding: {
+              left: 0,
+              right: 0,
+              top: 0,
+              bottom: -20
+            }
+          },
           display: false,
         },
         scales: {
-          yAxes: [{
-            display: false,
-            ticks: {
-              max: 100,
-              min: 0,
-              stepSize: 50
+          xAxes: [
+            {
+              ticks: {
+                display: false,
+              },
+              gridLines: {
+                display: false,
+                tickMarkLength: 0,
+              }
+            },
+          ],
+          yAxes: [
+            {
+              ticks: {
+                display: false,
+                max: 100,
+                min: 0,
+                stepSize: 50
+              },
+              gridLines: {
+                display: false,
+                tickMarkLength: 0,
+              }
             }
-          }]
+          ],
         }
       }
 
@@ -97,17 +147,42 @@ export class DashboardComponent implements OnInit {
       },
       options: {
         legend: {
+          layout: {
+            padding: {
+              left: 0,
+              right: 0,
+              top: 0,
+              bottom: -20
+            }
+          },
           display: false,
         },
         scales: {
-          yAxes: [{
-            display: false,
-            ticks: {
-              max: 100,
-              min: 0,
-              stepSize: 50
-            }
-          }]
+          xAxes: [
+            {
+              ticks: {
+                display: false,
+              },
+              gridLines: {
+                display: false,
+                tickMarkLength: 0,
+              },
+            },
+          ],
+          yAxes: [
+            {
+              ticks: {
+                display: false,
+                max: 100,
+                min: 0,
+                stepSize: 50
+              },
+              gridLines: {
+                display: false,
+                tickMarkLength: 0,
+              },
+            },
+          ],
         }
       }
 
@@ -127,17 +202,42 @@ export class DashboardComponent implements OnInit {
       },
       options: {
         legend: {
+          layout: {
+            padding: {
+              left: 0,
+              right: 0,
+              top: 0,
+              bottom: -20
+            }
+          },
           display: false,
         },
         scales: {
-          yAxes: [{
-            display: false,
-            ticks: {
-              max: 100,
-              min: 0,
-              stepSize: 50
-            }
-          }]
+          xAxes: [
+            {
+              ticks: {
+                display: false,
+              },
+              gridLines: {
+                display: false,
+                tickMarkLength: 0,
+              },
+            },
+          ],
+          yAxes: [
+            {
+              ticks: {
+                display: false,
+                max: 100,
+                min: 0,
+                stepSize: 50
+              },
+              gridLines: {
+                display: false,
+                tickMarkLength: 0,
+              },
+            },
+          ],
         }
       }
 

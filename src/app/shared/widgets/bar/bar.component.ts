@@ -8,16 +8,24 @@ import { Component, OnInit } from '@angular/core';
 export class BarComponent implements OnInit {
   public barChartOptions = {
     scales: {
+      xAxes: [
+        {
+          gridLines: {
+            display: false,
+            tickMarkLength: 0,
+          }
+        }
+      ],
       yAxes: [
         {
-        position: 'right',
-        ticks: {
-          max: 10000,
-          min: 0,
-          stepSize: 5000,
-        },
-      }
-    ]
+          position: 'right',
+          ticks: {
+            max: 10000,
+            min: 0,
+            stepSize: 5000,
+          },
+        }
+      ]
     },
     tooltips: {
       xPadding: 20,
@@ -33,8 +41,8 @@ export class BarComponent implements OnInit {
   public barChartData = [
     {
       data: [6500, 5900, 8000, 8100, 5600, 5500, 4000, 5900,
-         8000, 8100, 5600, 5500, 4000, 5900, 8000, 8100, 5600,
-          5500, 4000, 5900, 8000, 8100, 5600, 5500, 4000, 5900, 8000, 8100, 5600, 5500],
+        8000, 8100, 5600, 5500, 4000, 5900, 8000, 8100, 5600,
+        5500, 4000, 5900, 8000, 8100, 5600, 5500, 4000, 5900, 8000, 8100, 5600, 5500],
       backgroundColor: '#1665D8',
       barThickness: 10,
     },
