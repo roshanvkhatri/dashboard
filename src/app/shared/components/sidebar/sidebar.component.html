@@ -26,8 +26,8 @@
             <h5>Developer</h5>
         </div>
     </div>
-    <div class="dast-options">
-        <a mat-list-item routerLinkActive="list-item-active" routerLink='/' (click)="toggleCollapse()"
+    <div class="dash-options">
+        <a mat-list-item style="border: none;" routerLinkActive="list-item-active" routerLink='/' (click)="toggleCollapse()"
             class="dropdown-btn">
             <mat-icon>
                 <svg class="dashboard-icon" width="18px" viewBox="0 0 21 20" version="1.1"
@@ -90,21 +90,18 @@
 
 
         <div *ngIf="isCollapsed" class="dropdown-container">
-            <a mat-list-item routerLinkActive="list-item-active" routerLink='/'>
+            <a mat-list-item style="border: none;" routerLinkActive="list-item-active" routerLink='/'>
                 <h4 style="color: #1665d8;font-weight: 500;">Page Visitors</h4>
             </a>
-            <a mat-list-item routerLink="/postperformance" routerLinkActive="last-item-active">
+            <a mat-list-item style="border: none;" routerLink="/postperformance" routerLinkActive="last-item-active">
                 <h4>Post Performance</h4>
             </a>
-            <a mat-list-item routerLink="/teamoverall" routerLinkActive="last-item-active">
+            <a mat-list-item style="border: none;" routerLink="/teamoverall" routerLinkActive="last-item-active">
                 <h4>Team Overall</h4>
             </a>
         </div>
 
-
-        <mat-divider></mat-divider>
-
-        <a mat-list-item routerLinkActive="list-item-active" routerLink='/calender'>
+        <a mat-list-item style="border-top: 1px solid #eaedf3;" routerLinkActive="list-item-active" routerLink='/calender'>
             <mat-icon>
                 <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -127,7 +124,6 @@
                 Calender
             </h3>
         </a>
-        <mat-divider></mat-divider>
 
         <a mat-list-item routerLinkActive="list-item-active" routerLink='/inbox'>
             <mat-icon>
@@ -150,7 +146,6 @@
             </mat-icon>
             <h3 matSubheader>Inbox</h3>
         </a>
-        <mat-divider></mat-divider>
 
         <a mat-list-item routerLinkActive="list-item-active" routerLink='/invoicing'>
             <mat-icon>
@@ -173,7 +168,6 @@
             </mat-icon>
             <h3 matSubheader>Invoicing</h3>
         </a>
-        <mat-divider></mat-divider>
 
         <a mat-list-item routerLinkActive="list-item-active" routerLink='/labexp'>
             <mat-icon>
@@ -196,6 +190,5 @@
             </mat-icon>
             <h3 matSubheader>Lab/Experimental</h3>
         </a>
-        <mat-divider></mat-divider>
     </div>
 </mat-nav-list>

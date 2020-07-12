@@ -1,75 +1,107 @@
 :host {
-    vertical-align: middle;
-
+  vertical-align: middle;
 }
-h2, h3, h4, h5{
-    margin-bottom: 0;
+a {
+  min-height: 60px;
+}
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
 }
 .mat-subheader {
-    color: #3e3f42;
+  color: #3e3f42;
 }
-h3, h5{
-    font-weight: 500;
+h3,
+h5 {
+  font-weight: 500;
 }
-.profile-card{
-    padding: 30px;
-}
-
-.profile-card img{
-    width: 97px;
-    height: 97px;
-    object-fit: cover;
-    border-radius: 50%;
+.profile-card {
+  padding: 30px;
+  border-bottom: 1px solid #eaedf3;
 }
 
-.settings-button{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    left: 100px;
-    top: 35px;
-    background-color: white;
-    border: none;
-    padding: 0;
-}
-.header{
-    text-align: center;
-    margin-top: 14px;
+.profile-card img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.header h5{
-    color: #9ea0a5;
-    font-size: .875rem;
-    font-weight: 400;
+.settings-button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  left: 100px;
+  top: 35px;
+  background-color: white;
+  border: none;
+  padding: 0;
 }
-.dropdown-btn{
-    background-color: white;
-    width: 100%;
-    border: none;
+.header {
+  text-align: center;
+  margin-top: 14px;
+}
+.header h5 {
+  color: #9ea0a5;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 0.5;
+}
+.dropdown-btn {
+  background-color: white;
+  width: 100%;
+  border: none;
 }
 
-.dropdown-container{
-    padding-left: 50px;
+.dropdown-container {
+  padding-left: 40px;
 }
 .logo {
-    border-color: unset;
+  border-color: unset;
 }
 
-.mat-icon svg{
-    color: #828282;
-    margin-left: 12px;
+.mat-icon svg {
+  color: #828282;
 }
 
-.arrows{
-    margin-left: auto!important;
+.arrows {
+  margin-left: auto !important;
 }
 .material-icons {
-    font-size: inherit;
+  font-size: inherit;
 }
-.mat-nav-list{
-    padding: 0;
+.mat-nav-list {
+  padding: 0;
 }
-.dashboard-icon{
-    color:#1665d8!important;
+.dashboard-icon {
+  color: #1665d8 !important;
+}
+:host /deep/ .mat-list-item {
+  min-height: 60px; 
+  border-bottom: 1px solid #eaedf3;
+}
+
+:host /deep/ .mat-list-item-content {
+  padding: 0 !important;
+}
+
+.dash-options {
+  padding: 16px 30px 30px;
+}
+.mat-divider {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+:host /deep/ .mat-subheader {
+  padding: 0 0 0 12px;
+}
+:host /deep/ .mat-icon {
+  height: unset;
+  width: unset;
+  background-repeat: unset;
+  display: unset;
 }
